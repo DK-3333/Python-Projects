@@ -24,9 +24,9 @@ Different python projects which signifies the application of python in real worl
 11.**Tic Tac Toe** : This code implements the minimax algorithm to create an unbeatable Tic Tac Toe game. The "ai_turn()" function uses the minimax algorithm to determine the best move for the computer player. The algorithm works by evaluating all possible future moves and choosing the move that results in the best outcome for the computer.
 
   Here's how the function works:
-  **1.** It calls the "minimax()" function with the current state of the board, a depth of 0, and the computer player as the current player.
-  **2.** The "minimax()" function evaluates all possible moves for the current player at the current depth level. If the depth level is 0 or the game is over, it returns the score of the current state. Otherwise, it recursively calls itself with the updated state, depth level, and the opposite player.
-  **3.** The "minimax()" function returns a list with the best row, column, and score for the current player at the current depth level.
-  **4.** The "ai_turn()" function uses the best row and column values to make the computer's move on the board.
+1. It calls the `minimax()` function with the current state of the board, a depth of 0, and the computer player as the current player.
+2. The `minimax()` function evaluates all possible moves for the current player at the current depth level. If the depth level is 0 or the game is over, it returns the score of the current state. Otherwise, it recursively calls itself with the updated state, depth level, and the opposite player.
+3. The `minimax()` function returns a list with the best row, column, and score for the current player at the current depth level.
+4. The `ai_turn()` function uses the best row and column values to make the computer's move on the board.
 
 12.**Fizzbuzz** : Welcome to our number guessing game! This is a simple yet exciting game where you get to guess a randomly generated number between 1 to 100. You will have 10 chances to guess the correct number, and with each incorrect guess, you will be given a clue to help you narrow down your choices. If you run out of chances, don't worry, you can always try again. Are you ready to put your guessing skills to the test? Let's play!
